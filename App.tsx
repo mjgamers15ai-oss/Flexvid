@@ -1,19 +1,18 @@
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from "@studio-freight/lenis";
 
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Lenis from '@studio-freight/lenis';
-
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Problem from './components/Problem';
-import Transformation from './components/Transformation';
-import Work from './components/Work';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import FinalCTA from './components/FinalCTA';
-import Footer from './components/Footer';
-import CustomCursor from './components/CustomCursor';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Problem from "./components/Problem";
+import Transformation from "./components/Transformation";
+import Work from "./components/Work";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import FinalCTA from "./components/FinalCTA";
+import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 import Loader from './components/Loader';
 
 // Pages
